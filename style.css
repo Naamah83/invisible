@@ -1,0 +1,173 @@
+.page-header {
+  background-color: #000000;	
+}
+
+.page-header__inner {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.cross {
+	margin-right: 10px;
+	margin-left: 15px;
+}
+
+.description {
+	background: linear-gradient(to right, #1e5a6b, #4eb781);
+}
+
+.description__inner {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-right: 23px;
+}
+
+.description__text {
+	font-family: "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+.promo {
+  background-color: #f8f6ec;
+}
+
+.promo__inner {
+	padding-left: 5px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Times New Roman", serif;
+  font-size: 23px;
+  font-weight: 600;
+	color: #3b9378;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.promo__text {
+	font-family: "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #636362;
+  font-style: italic;
+  margin-bottom: 15px;
+  padding-left: 15px;
+	padding-right: 15px;
+}
+
+.promo__remark {
+	font-family: "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #636362;
+  font-style: italic;
+  padding-left: 20px;
+	padding-right: 20px;
+}
+
+.promo__register-fb {
+  background-color: #4764b4;
+  border-radius: 2px;
+  display: block;
+  height: 48px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.promo__register-fb::before {
+	content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 13px;
+  left: 10px;
+  background: url(../img/fb_logo.jpg) no-repeat center;
+  border-radius: 2px;
+}
+
+.promo__register-fb a {
+	margin: 0;
+  padding: 0;
+	padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  display: block;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.promo__register-old {
+	margin-bottom: 20px;
+}
+
+.promo__register-old a {
+	color: #5697e2;
+}
+
+.share {
+	background: url(../img/inner_bg.png) repeat;
+}
+
+.share__inner {
+  padding-left: 15px;
+	padding-top: 12px;
+	padding-bottom: 17px;
+	padding-right: 12px;
+}
+
+.share__text {
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.share-link {
+background-color: #000000;
+border-radius: 2px;
+text-align: center;
+}
+
+.share-link a {
+	display: block;
+	color: #f5a623; 
+	padding-left: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 45px;
+}
+
+.page-footer {
+  background-color: #000000;
+}
+
+.page-footer__inner {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #636363;
+  font-size: 14px;
+}
+
+.page-footer__logo {
+	padding-right: 9px;
+  padding-left: 13px;
+}
